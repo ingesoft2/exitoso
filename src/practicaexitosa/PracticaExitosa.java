@@ -19,4 +19,9 @@ public class PracticaExitosa {
         //Hola esta 
     }
     
+    public void pruebaAlvaro(){
+    	System.out.println("Holi");
+    	
+    }
+    
 }
