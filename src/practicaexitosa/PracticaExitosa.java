@@ -14,9 +14,14 @@ public class PracticaExitosa {
     /**
      * @param args the command line arguments
      */
+	
+	public String imprimir(){
+		System.out.println("HOlaa a todos, soy Juanito");
+	}
     public static void main(String[] args) {
         // TODO code application logic here
         //Hola esta 
+    	
     }
     
 }
