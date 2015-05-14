@@ -9,8 +9,7 @@ import java.util.Vector;
 
 import javax.swing.JOptionPane;
 
-import usuario.GestorUsuario;
-import usuario.Usuario;
+
 
 /**
  *
@@ -46,10 +45,7 @@ public class PracticaExitosa {
 		this.EliminarUsuario();
 	}
 
-	public static void main(String[] args) 
-	{
-		new GestorUsuario();
-	}
+	
 	
 	
 	public void crearUsuario()
