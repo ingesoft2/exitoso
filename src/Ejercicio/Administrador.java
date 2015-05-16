@@ -6,6 +6,7 @@
 package Ejercicio;
 
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -20,33 +21,44 @@ public class Administrador
 
     public Administrador() 
     {
-        tamano=100;
-        this.arreglo = new int[tamano];
+        tamano=0;
+        this.arreglo = new int[100];
     }
     
-    public void add()
+    public void add(int num)
     {
-        
+        arreglo[tamano]=num;
+        tamano++;
     }
     
-    public void size()
+    public int size()
     {
-        
+        return tamano;
     }
     
-    public void isEmpty()
+    public boolean isEmpty()
     {
-        
+        if(tamano==0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
     
-    public void get()
+    public int get(int pos)
     {
-        
+        return arreglo[pos];
+         
     }
     
-    public void remove()
+    public void remove(int pos)
     {
-        
+        arreglo[pos-1]=arreglo[tamano];
+        arreglo[tamano]=0;
+        tamano--;
     }
     
     
